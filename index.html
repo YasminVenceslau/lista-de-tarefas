@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Lista de Tarefas</h1>
+            <img src="imagens/lista-de-tarefas.png" alt="uma mesa com livros">
+        </header>
+        <h4>Adicione seus Afazeres</h4>
+
+        <form cellspacing="0" >
+            <input type="text" name="tarefa" id="tafera" placeholder="Digite sua Tarefa">
+            <input type="datetime-local" name="data" id="data" >
+            <select name="dificuldade" id="dificuldade">
+                <option id="rapido" value="rapido">Fácil</option>
+                <option  id="moderado" value="moderado">Moderado</option>
+                <option id="dificil" value="dificil">Difícil</option>
+            </select>
+            <button type="button">Adicione</button>
+                
+        </form>
+        <table>
+            <thead>
+                <th>Tarefa</th>
+                <th>Dia</th>
+                <th>Dificuldade</th>
+                <th>Pronto</th>
+        
+            </thead>
+            <tbody>
+                <td>calcular</td>
+                <td>12/04</td>
+                <td> <img src="imagens/dois.png" class="moderado" alt=""></td>
+                <td> <input type="checkbox" name="feito" id="feito"></td>
+            </tbody>
+        
+        </table>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
