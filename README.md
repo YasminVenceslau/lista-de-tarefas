@@ -1,6 +1,6 @@
 # Lista de Tarefas
 
- Projeto voltado para o apredizado e exercícios dos fundamentos do jquery.
+ Projeto voltado para o aprendizado e exercícios dos fundamentos do jquery.
 
 ## 1 
 
