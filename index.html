@@ -13,15 +13,17 @@
             <h1>Lista de Tarefas</h1>
             <img src="imagens/lista-de-tarefas.png" alt="uma mesa com livros">
         </header>
-        <h4>Adicione seus Afazeres</h4>
-
+        
         <form cellspacing="0" >
-            <input type="text" name="tarefa" id="tafera" placeholder="Digite sua Tarefa">
-            <input type="datetime-local" name="data" id="data" >
+            <label for="text">Digite sua Tarefa: </label>
+            <input type="text" name="tarefa" id="tafera" placeholder="">
+            <label for="data">Digite o dia:</label>
+            <input type="date" name="data" id="data" >
+            <label for="select">Digite a Dificuldade:</label>
             <select name="dificuldade" id="dificuldade">
-                <option id="rapido" value="rapido">Fácil</option>
-                <option  id="moderado" value="moderado">Moderado</option>
-                <option id="dificil" value="dificil">Difícil</option>
+                <option id="1d" value="rapido">Fácil</option>
+                <option  id="2d" value="moderado">Moderado</option>
+                <option id="3d" value="dificil">Difícil</option>
             </select>
             <button type="button">Adicione</button>
                 

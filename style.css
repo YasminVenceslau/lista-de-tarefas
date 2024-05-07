@@ -5,10 +5,8 @@
 }
 
 body{
-    background-image: url(imagens/rm380-02\ \(2\).jpg);
-    background-color: #112243;
+    background: #171549;
     
-    background-size: cover;
 }
 main{
     max-width: 600px;
@@ -18,10 +16,20 @@ main{
     margin-top: 50px;
     padding: 15px;
 
+    background-image: url(imagens/rm380-02\ \(2\).jpg);
+    background-color: #112243;
+    background-size: cover;
+
+    filter: saturate(2);
     
-    background: #2A4B8C;
+
+
+
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.277);
+    
     border-radius: 5%;
 }
+
 
 h1{
     color: aliceblue;
@@ -35,37 +43,75 @@ header{
     text-align: center;
 }
 header img{
-    max-width:100% ;
-    min-height: 10%;
+    max-width: 25%;
     
-    border-radius:10px 5px 2em / 20px 25px 30%;
-    box-shadow: 1px 1px 3px 1px #190824;
-
     
 }
 
 form{
 text-align: center;
-display: flexbox;
-flex-wrap: nowrap;
-height: 10px;
+padding: 10px;
+
+
+box-sizing: border-box;
+flex-direction: column;
+display: flex;
+
+width: 100%;
+height: 100%;
+gap: 5px;
 
 padding-bottom: 50px;
 
 
 
 }
+
+label{
+    text-align: left;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
 form input {
     height: 20px;
+
+    border-radius: 5px;
+    border: none;
+
+    text-align: center;
     
 }
 form select{
     height: 22px;
+
+    border-radius: 5px;
+    border: none;
+
+    text-align: center;
 }
 
 button{
-    padding: 2px 5px;
+    padding: 10px ;
+    border-radius: 5px;
+    border: none;
+
+    color: blueviolet;
+    
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: 0.5s;
 }
+
+button:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+
+}
+
 
 h4{
     text-align: center;
