@@ -1,27 +1,18 @@
 $(document).ready(function(){
-    
+    //adicona um ouvinte no evento de clique
+    $('form button').ready(function(){
+        $("form button").click(function(e){ 
+            // inpede que a página atualize o formulário 
+            e.preventDefault()
+            
+            //abre a tabela
+            $('section').slideDown()
+            $('table').slideDown()
+        })
 
-    document.querySelector('form button').addEventListener('click', function(e){
-
+        $('section button').click(function(){
+            //fecha a tabela
+            $('section').slideUp()
+        })
     })
-
-    $('form button').on('submit', function(e){
-        console.log('eu estoi ok')
-        e.preventDefault()
-        
-    })
-
-    $('form button').click(function(){ //abre a parte da tabela
-        $('section').slideDown()
-        $('table').slideDown()
-        
-    })
-
-    $('section button').click(function(){ // fecha a tabela
-        $('section').slideUp()
-    })
-
-    
-
-    
 })
