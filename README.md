@@ -8,8 +8,7 @@
 
 ## 2
 
-- Ao submeter o formulário, adicione um elemento < li > dentro de
-uma lista ordenada ou não.
+- Ao submeter o formulário, adicione um elemento < li > dentro de uma lista ordenada ou não.
 
 ## 3 
 

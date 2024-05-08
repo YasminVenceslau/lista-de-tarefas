@@ -22,28 +22,32 @@
             <label for="select">Digite a Dificuldade:</label>
             <select name="dificuldade" id="dificuldade">
                 <option id="1d" value="rapido">Fácil</option>
-                <option  id="2d" value="moderado">Moderado</option>
+                <option  id="2d" value="modera1do">Moderado</option>
                 <option id="3d" value="dificil">Difícil</option>
             </select>
-            <button type="button">Adicione</button>
+            <button id="botao-adicione" type="button">Adicione</button>
                 
         </form>
-        <table>
-            <thead>
-                <th>Tarefa</th>
-                <th>Dia</th>
-                <th>Dificuldade</th>
-                <th>Pronto</th>
-        
-            </thead>
-            <tbody>
-                <td>calcular</td>
-                <td>12/04</td>
-                <td> <img src="imagens/dois.png" class="moderado" alt=""></td>
-                <td> <input type="checkbox" name="feito" id="feito"></td>
-            </tbody>
-        
-        </table>
+        <section>
+            <table>
+                <thead>
+                    <th>Tarefa</th>
+                    <th>Dia</th>
+                    <th>Dificuldade</th>
+                    <th>Pronto</th>
+            
+                </thead>
+                <tbody>
+                    <td>calcular</td>
+                    <td>12/04</td>
+                    <td> <img src="imagens/dois.png" class="moderado" alt=""></td>
+                    <td> <input type="checkbox" name="feito" id="feito"></td>
+                </tbody>
+                
+            </table>
+
+            <button id="botao-excluir" type="button">Excluir tabela</button>
+        </section>
         
     </main>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>

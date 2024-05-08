@@ -125,6 +125,12 @@ table{
     display: none;
     text-align: center;
 
+    background-color: #6829a664;
+
+    color: rgb(1, 7, 12);
+
+    text-transform: uppercase;
+
     width: 100%;
     border-collapse: collapse;
 
@@ -134,15 +140,34 @@ table{
     border-right:2px solid #011C40 ;
 }
 
+section{
+    display: none;
+    text-align: center;
+
+    color: aliceblue;
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#botao-excluir{
+    padding: 5px;
+    margin: 5px;
+}
+
 table th{
     border-bottom: 2px solid #011C40;
     text-align: center;
     color: aliceblue ;
+    
+    width: 10%;
+    
 }
 table td{
     padding: 5px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.342);
     font-family: cursive;
 }
+
 
 
