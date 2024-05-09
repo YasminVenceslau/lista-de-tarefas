@@ -144,6 +144,8 @@ section{
     display: none;
     text-align: center;
 
+    padding-bottom: 25px;
+
     color: aliceblue;
 
     width: 100%;
@@ -167,6 +169,26 @@ table td{
     padding: 5px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.342);
     font-family: cursive;
+}
+
+footer{
+    text-align: center;
+    padding: ;
+    width: 65%;
+    margin: auto;
+    background-color: #17154926;
+    color: white;
+
+   
+}
+
+footer a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: aliceblue;
 }
 
 
