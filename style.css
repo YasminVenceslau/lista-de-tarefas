@@ -170,4 +170,6 @@ table td{
 }
 
 
-
+.riscado{
+    text-decoration: line-through white;
+}

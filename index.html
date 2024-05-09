@@ -14,34 +14,33 @@
             <img src="imagens/lista-de-tarefas.png" alt="uma mesa com livros">
         </header>
         
-        <form cellspacing="0" >
-            <label for="text">Digite sua Tarefa: </label>
-            <input type="text" name="tarefa" id="tafera" placeholder="">
-            <label for="data">Digite o dia:</label>
-            <input type="date" name="data" id="data" >
-            <label for="select">Digite a Dificuldade:</label>
-            <select name="dificuldade" id="dificuldade">
-                <option id="1d" value="rapido">Fácil</option>
-                <option  id="2d" value="modera1do">Moderado</option>
-                <option id="3d" value="dificil">Difícil</option>
+        <form  >
+            <label   for="tarefa" required>Digite sua Tarefa: </label>
+            <input  type="text" name="tarefa" id="tarefa" required  placeholder="">
+            <label   for="data">Digite o dia:</label>
+            <input  required  type="date" name="data" id="data" >
+            <label  for="select">Digite a Dificuldade:</label>
+            <select required  name="dificuldade" id="dificuldade">
+                <option id="1d" value="Rápido">Fácil</option>
+                <option  id="2d" value="Moderado">Moderado</option>
+                <option id="3d" value="Difícil">Difícil</option>
             </select>
             <button id="botao-adicione" type="button">Adicione</button>
                 
         </form>
         <section>
-            <table>
+            <table >
                 <thead>
-                    <th>Tarefa</th>
-                    <th>Dia</th>
-                    <th>Dificuldade</th>
-                    <th>Pronto</th>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Dia</th>
+                        <th>Dificuldade</th>
+                        <th>Pronto</th>
+                    </tr>
             
                 </thead>
-                <tbody>
-                    <td>calcular</td>
-                    <td>12/04</td>
-                    <td> <img src="imagens/dois.png" class="moderado" alt=""></td>
-                    <td> <input type="checkbox" name="feito" id="feito"></td>
+                <tbody id="corpo_da_tabela">
+                    
                 </tbody>
                 
             </table>
